@@ -1,0 +1,10 @@
+File Paths:
+1. Relative (/) or (./) and (../)
+2. Absolute (root)
+
+
+To move an elemnt
+1. Text-align - for textual contents
+2. Margin:auto; - for block elements with fixed width less than 100%
+3. justify content - for flex elements when flex direction is row
+4. align-items - for flex elements when flex direction is column 
