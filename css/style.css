@@ -176,3 +176,11 @@ nav{
     font-size: 32px;
     line-height: 38.4px;
 }
+
+
+.nav_links2 a:hover, .action_button2:hover{
+    background-color: #2E8B57;
+    color: #ffffff;
+    border-radius: 30px;
+    transition: background-color 0.5s, color 0.5s;
+}
