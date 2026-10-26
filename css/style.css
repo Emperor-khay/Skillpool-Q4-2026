@@ -46,8 +46,8 @@ h1{
     font-size: 16px;
     line-height: 20px;
 }
-
-/* .action_button1{
+/* 
+.action_button1{
     background-color: #FF6A3D;
     border-radius: 30px;
     color: #ffffff;
@@ -59,17 +59,17 @@ h1{
     margin-bottom: 20px;
 } */
 
-.action_button2{
-    width: 137px;
-    height: 48px;
-    display: flex;
+    .action_button2{
+        width: 137px;
+        height: 48px;
+        display: flex;
 
-    background-color: #FF6A3D;
-    border-radius: 30px;
-    color: #ffffff;
-    justify-content: center;
-    align-items: center;
-}
+        background-color: #FF6A3D;
+        border-radius: 30px;
+        color: #ffffff;
+        justify-content: center;
+        align-items: center;
+    }
 
 nav{
     display: flex;
@@ -183,4 +183,10 @@ nav{
     color: #ffffff;
     border-radius: 30px;
     transition: background-color 0.5s, color 0.5s;
+}
+
+.hamburger{
+    display: none;
+    width: 50px;
+    height: 50px;
 }
