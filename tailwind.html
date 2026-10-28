@@ -13,14 +13,15 @@
         <h1 class="font-bold text-[36px] leading-[28px]  text-[#2E8B57]">Skillpool</h1>
 
         <!-- Navlinks and Action Button Grouped -->
-        <div class="flex items-center gap-[111px]">
+        <div class="flex items-center gap-[20px] sm:gap-[50px] md:gap-[111px]">
+
             <!-- <div class="nav_links">
                 <a href="">Home</a>
                 <a href="">How It Works</a>
                 <a href="">About</a>
                 <a href="">Contact Us</a>
             </div> -->
-            <div class="flex gap-4 items-center ">
+            <div class="md:flex gap-4 items-center hidden">
                 <a href="" class="hover:bg-[#2E8B57] hover:text-white hover:rounded-[30px] hover:transition-colors hover:duration-500 py-2 px-3 font-medium text-base/5">Home</a>
                 <a href="" class="hover:bg-[#2E8B57] hover:text-white hover:rounded-[30px] hover:transition-colors hover:duration-500 py-2 px-3 font-medium text-base/5">How It Works</a>
                 <a href="" class="hover:bg-[#2E8B57] hover:text-white hover:rounded-[30px] hover:transition-colors hover:duration-500 py-2 px-3 font-medium text-base/5">About</a>
@@ -29,6 +30,11 @@
 
             <!-- <a href="" class="action_button1">Post A Job</a> -->
             <a href="" class="w-[137px] h-12 flex bg-[#FF6A3D] rounded-[30px] text-white justify-center items-center">Post A Job</a>
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline-block md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+
         </div>
     </nav>
 
@@ -39,7 +45,7 @@
         <div class="w-full bg-[#000000B2] absolute inset-0 z-1"></div>
 
         <!-- Hero Section -->
-        <div class="relative z-2 flex gap-25 justify-center h-[78vh] items-center">
+        <div class="relative z-2 flex gap-12.5 flex-col sm:flex-row sm:gap-25 justify-center h-fit py-10 sm:h-[78vh] items-center">
             <div class="text-center flex flex-col items-center gap-[10px]">
                 <span class="bg-[#FF6A3D] py-[21px] px-[19px] inline-block rounded-[37px] border-5 border-[#885748]">
                     <img src="./images/icons/hero_icon_1.svg" alt="" height="32px" width="36px">

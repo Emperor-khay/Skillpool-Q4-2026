@@ -3,49 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillPool RWD with Tailwind</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>SkillPool - Tailwind</title>
+
 </head>
 <body>
-    <nav class="flex items-center justify-around py-[18.23px]">
-        <div>
-            <h1 class="font-bold text-[23.24px]/[36.46px] text-[#0A2540]">Datavynce 
-                <span class="text-[#00C2FF]"> 
-                    Solutions
-                </span>
-            </h1> 
+    <nav class="flex items-center justify-around py-[22px]">
+        <h1 class="font-bold text-[22px]/[35px] text-[#0A2540]">Datavynce 
+            <span class="text-[#00C2FF]">Solutions</span>
+        </h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-[26px]">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+    </nav>    
+
+    <hr>
+
+    <div class="bg-[url('./images/DigitalSolutions_herobg.png')] bg-no-repeat bg-cover py-[112px] px-[6%]">
+        <h1 class="font-bold text-[30px]/[45px] text-[#FFFFFF]">
+            Innovative IT Solutions for <br class="hidden md:inline-block"> Your
+            <span class="text-[#00C2FF]">
+                Digital <br class="hidden md:inline-block"> Transformation
+            </span>
+        </h1>
+
+        <p class="font-normal text-[15px]/[28px] text-[#D1D5DB] mt-[24px]">
+            We help businesses leverage technology
+            to drive growth, <br class="hidden md:inline-block"> improve efficiency, and
+            stay competitive in today's digital <br class="hidden md:inline-block">
+            landscape.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 w-fit items-center mt-[32px] mx-auto md:mx-0">
+            <a href="" class="bg-[#00C2FF] py-[14px] px-[91px] sm:px-[32px] inline-block rounded-2xl text-[#FFFFFF]">Book Consultancy</a>
+            <a href="" class="border-2 border-[#FFFFFF] py-[14px] px-[98px] sm:px-[34px] inline-block rounded-2xl text-[#FFFFFF]">Explore Services</a>
         </div>
-        <div class="flex gap-[36.46px] items-center">
-            <a href="" class="hover:font-black font-medium text-[15.5px]/[27.35px] text-[#374151]">Home</a>
-
-            <a href="" class="hover:font-black font-medium text-[15.5px]/[27.35px] text-[#374151]">About Us</a>
-
-            <div class="relative group">
-                <a href="" class="hover:font-black font-medium text-[15.5px]/[27.35px] text-[#374151]">
-                    Services
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="4" stroke="currentColor" class="w-[18.23px] h-[12px] inline-block group-hover:rotate-180 group-hover:transition-all group-hover:duration-500">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                    </svg>
-    
-                    <div class="w-[224px] group-hover:grid bg-gray-300 group-hover:transition-all group-hover:duration-500 group-hover:rounded-2xl absolute group-hover:bottom-[-300px] hidden">
-                        <a href="" class="font-normal text-[11.9px]/5 text-[#374151] py-2 pl-4">Consultancy</a>
-                        <a href="" class="font-normal text-[11.9px]/5 text-[#374151] py-2 pl-4">Software Development</a>
-                        <a href="" class="font-normal text-[11.9px]/5 text-[#374151] py-2 pl-4">Training</a>
-                        <a href="" class="font-normal text-[11.9px]/5 text-[#374151] py-2 pl-4">Branding</a>
-                        <a href="" class="font-normal text-[11.9px]/5 text-[#374151] py-2 pl-4">Product Design</a>
-                        <a href="" class="font-normal text-[11.9px]/5 text-[#374151] py-2 pl-4">System Analysis</a>
-                        <a href="" class="font-normal text-[11.9px]/5 text-[#374151] py-2 pl-4">Product Review</a>
-                        <a href="" class="font-normal text-[11.9px]/5 text-[#374151] py-2 pl-4">Testing</a>
-                    </div>
-                </a>
-            </div>
-
-            <a href="" class="hover:font-black font-medium text-[15.5px]/[27.35px] text-[#374151]">Contact Us</a>
-            
-            <a href="" class="hover:scale-110 hover:transition-all hover:duration-500 hover:ease-in-out font-medium text-[15.5px]/[27.35px] text-[#374151] bg-[#00C2FF] px-[30px] py-[10px] text-white rounded-[18.23px]">Book Consultancy</a>
-            
-            <a href="" class="hover:font-black font-medium text-[15.5px]/[27.35px] text-[#374151] bg-[#00C2FF] w-[193.7px] h-[45.58px] flex items-center justify-center text-white rounded-[18.23px]">Book Consultancy</a>
-        </div>
-    </nav>
+    </div>
 </body>
 </html>
